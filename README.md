@@ -9,9 +9,6 @@ This project is part of [The Odin Project](https://www.theodinproject.com/dashbo
 - Styled form fields with ```:focus``` and ```:invalid``` CSS pseudo-classes
 - Input types like ```email```, ```password```, and ```text```
 
-## Live Demo
-[Click here to view the live preview](https://sarahma12.github.io/odin-sign-up-form/)
-
 ## Built WIth
 - HTML
 - CSS
@@ -21,3 +18,5 @@ This project is part of [The Odin Project](https://www.theodinproject.com/dashbo
 - Styling form input states
 - Form validation using HTML built-in attributes
 - Structuring clean and accessible forms
+
+## [Live Demo](https://sarahma12.github.io/odin-sign-up-form/)
