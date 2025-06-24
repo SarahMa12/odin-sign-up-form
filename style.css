@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    max-width: 40vw;
+    background-image: url("./images/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    
+}
