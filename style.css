@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("./fonts/Norse-Bold.otf") format("opentype");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -10,13 +18,110 @@
 }
 
 .sidebar {
-    display: flex;
-    max-width: 40vw;
+    min-width: 40vw;
     background-image: url("./images/background.jpg");
     background-position: center;
     background-size: cover;
 }
 
+.name-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 200px 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
 .logo {
-    
+    width: 80px;
+}
+
+.odin {
+    font-family: "Norse-Bold", serif;
+    font-size: 90px;
+    color: white;
+}
+
+.form-panel {
+    padding: 160px 50px;
+    background-color: rgb(245, 244, 244);
+}
+
+.desc, p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.info {
+    display: flex;
+    gap: 60px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    margin: 50px -50px;
+    padding: 18px 40px 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); 
+}
+
+input {
+    width: 220px;
+    height: 26px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.submit {    
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -20px;
+    padding: 12px 42px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    border: none;
+    background-color: #596D48;
+    color: white;
+}
+
+.login {
+    margin-top: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+input:invalid {
+    border-color: red;
+    outline: none;
 }
